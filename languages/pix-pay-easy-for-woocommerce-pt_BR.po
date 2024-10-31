@@ -1,0 +1,326 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-02-28 21:12+0600\n"
+"PO-Revision-Date: 2024-02-28 21:12+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/class-wc-payeasy-boleto.php:21
+#: includes/class-wc-payeasy-boleto.php:81
+msgid "Pay Easy Boleto"
+msgstr "Pay Easy Boleto"
+
+#: includes/class-wc-payeasy-boleto.php:22 includes/class-wc-payeasy-pix.php:27
+msgid "Automatic with instant settlement"
+msgstr "Automático com liquidação instantânea"
+
+#: includes/class-wc-payeasy-boleto.php:47 includes/class-wc-payeasy-pix.php:52
+#, php-format
+msgid "Open your account now %s"
+msgstr "Abra sua conta agora %s"
+
+#: includes/class-wc-payeasy-boleto.php:54 includes/class-wc-payeasy-pix.php:59
+#, php-format
+msgid "Pay Easy integration %s with Woocommerce"
+msgstr "Integração Pay Easy %s com Woocommerce"
+
+#: includes/class-wc-payeasy-boleto.php:63 includes/class-wc-payeasy-pix.php:68
+#, php-format
+msgid "For support, questions or suggestions, contact us via %s"
+msgstr "Para suporte, dúvidas ou sugestões, entre em contato conosco via %s"
+
+#: includes/class-wc-payeasy-boleto.php:72 includes/class-wc-payeasy-pix.php:77
+msgid "Enable/Disable"
+msgstr "Habilitar/ desabilitar"
+
+#: includes/class-wc-payeasy-boleto.php:74 includes/class-wc-payeasy-pix.php:79
+msgid "Enable or Disable Pay Easy Payment"
+msgstr "Habilitar ou desabilitar pagamento Pay Easy"
+
+#: includes/class-wc-payeasy-boleto.php:79 includes/class-wc-payeasy-pix.php:84
+msgid "Title"
+msgstr "Título"
+
+#: includes/class-wc-payeasy-boleto.php:83
+msgid ""
+"Add a new title for the Pay Easy Boleto that customers will see when they "
+"are in the checkout page."
+msgstr ""
+"Adicione um novo título para o Pay Easy Boleto  que os clientes verão quando "
+"estiverem na página de checkout."
+
+#: includes/class-wc-payeasy-boleto.php:86
+msgid "Pay Easy Boleto Description"
+msgstr "Descrição do Pay Easy Boleto"
+
+#: includes/class-wc-payeasy-boleto.php:90
+msgid ""
+"Add a new description for the Pay Easy Boleto that customers will see when "
+"they are in the checkout page."
+msgstr ""
+"Adicione uma nova descrição para o Pay Easy Boleto que os clientes verão "
+"quando estiverem na página de checkout."
+
+#: includes/class-wc-payeasy-boleto.php:93 includes/class-wc-payeasy-pix.php:98
+msgid "Instructions"
+msgstr "Instruções"
+
+#: includes/class-wc-payeasy-boleto.php:95
+msgid "Abra o aplicativo do seu banco e scaneie o código de barras"
+msgstr "Abra o aplicativo do seu banco e scaneie o código de barras"
+
+#: includes/class-wc-payeasy-boleto.php:97
+#: includes/class-wc-payeasy-pix.php:102
+msgid ""
+"Instructions that will be added to the thank you page about how they can "
+"make the payment."
+msgstr ""
+"Instruções que serão adicionadas à página de agradecimento sobre como podem "
+"efetuar o pagamento."
+
+#: includes/class-wc-payeasy-boleto.php:100
+#: includes/class-wc-payeasy-boleto.php:101
+#: includes/class-wc-payeasy-pix.php:105 includes/class-wc-payeasy-pix.php:106
+msgid "Enable Test Mode"
+msgstr "Habilitar modo de teste"
+
+#: includes/class-wc-payeasy-boleto.php:103
+#: includes/class-wc-payeasy-pix.php:108
+msgid "Place the payment gateway in test mode using test API keys."
+msgstr ""
+"Coloque o gateway de pagamento em modo de teste usando chaves de API de "
+"teste."
+
+#: includes/class-wc-payeasy-boleto.php:108
+#: includes/class-wc-payeasy-pix.php:113
+msgid "Test Api Key"
+msgstr "Chave de API de teste"
+
+#: includes/class-wc-payeasy-boleto.php:112
+#: includes/class-wc-payeasy-pix.php:117
+msgid "Production Api Key"
+msgstr "Chave da API de produção"
+
+#: includes/class-wc-payeasy-boleto.php:116
+#: includes/class-wc-payeasy-pix.php:121
+msgid "Order Status for Pending Payments"
+msgstr "Status do pedido para pagamentos pendentes"
+
+#: includes/class-wc-payeasy-boleto.php:121
+#: includes/class-wc-payeasy-pix.php:126
+msgid ""
+"Select the order status to which the payment should be marked when it is "
+"pending."
+msgstr ""
+"Selecione o status do pedido para o qual deverá ser marcado o pagamento "
+"quando estiver pendente."
+
+#: includes/class-wc-payeasy-boleto.php:124
+#: includes/class-wc-payeasy-pix.php:129
+msgid "Order Status for Paid Payments"
+msgstr "Status do pedido para pagamentos pagos"
+
+#: includes/class-wc-payeasy-boleto.php:129
+#: includes/class-wc-payeasy-pix.php:134
+msgid ""
+"Select the order status to which the payment should be marked when it is "
+"considered paid."
+msgstr ""
+"Selecione o status do pedido para o qual o pagamento deverá ser marcado "
+"quando for considerado pago."
+
+#: includes/class-wc-payeasy-boleto.php:132
+#: includes/class-wc-payeasy-pix.php:137
+msgid "Support Information"
+msgstr "Informação de ajuda"
+
+#: includes/class-wc-payeasy-boleto.php:142
+#: includes/class-wc-payeasy-pix.php:147
+msgid "Error: Nonce verification failed, please try again."
+msgstr "Erro: Se a verificação do Nonce falhou, tente novamente."
+
+#: includes/class-wc-payeasy-boleto.php:149
+#: includes/class-wc-payeasy-pix.php:154
+msgid "CPF/CPNJ is required."
+msgstr "CPF/CPNJ é obrigatório."
+
+#: includes/class-wc-payeasy-boleto.php:161
+#: includes/class-wc-payeasy-pix.php:166
+msgid "Not a valid CPF NO"
+msgstr "Não é um CPF válido NÃO"
+
+#: includes/class-wc-payeasy-boleto.php:222
+msgid "The BOLETO was not generated. Contact with the payment provider."
+msgstr "O BOLETO não foi gerado. Contato com o provedor de pagamento."
+
+#: includes/class-wc-payeasy-boleto.php:226
+#: includes/class-wc-payeasy-pix.php:231
+msgid "Enable to connect with payeasy server."
+msgstr "Ative para conectar-se ao servidor payeasy."
+
+#: includes/class-wc-payeasy-boleto.php:283
+#: includes/class-wc-payeasy-pix.php:288
+msgid "Enter your CPF / CNPJ "
+msgstr "Insira seu CPF/CNPJ "
+
+#: includes/class-wc-payeasy-boleto.php:288
+#: includes/class-wc-payeasy-pix.php:293
+msgid "I declare that I have read and accept the"
+msgstr "Declaro que li e aceito os"
+
+#: includes/class-wc-payeasy-boleto.php:288
+#: includes/class-wc-payeasy-pix.php:293
+msgid "Terms & Conditions & Privacy Policy"
+msgstr "Termos e Condições e Política de Privacidade"
+
+#: includes/class-wc-payeasy-boleto.php:288
+#: includes/class-wc-payeasy-pix.php:293
+msgid "for this purchase"
+msgstr "desta compra"
+
+#: includes/class-wc-payeasy-boleto.php:309
+#: includes/class-wc-payeasy-pix.php:314
+msgid "Please complete your payment"
+msgstr "Por favor, conclua seu pagamento"
+
+#: includes/class-wc-payeasy-boleto.php:311
+msgid "BOLETO Payment"
+msgstr "Pagamento BOLETO"
+
+#: includes/class-wc-payeasy-boleto.php:316
+msgid "Bar Code"
+msgstr "Código de barras"
+
+#: includes/class-wc-payeasy-boleto.php:320
+#: includes/class-wc-payeasy-pix.php:330
+msgid "Copy code"
+msgstr "Copiar código"
+
+#: includes/class-wc-payeasy-boleto.php:324
+#: includes/class-wc-payeasy-pix.php:334
+msgid "Amount"
+msgstr "Quantia"
+
+#: includes/class-wc-payeasy-boleto.php:329
+#: includes/class-wc-payeasy-pix.php:339
+msgid "Copy amount"
+msgstr "Copiar valor"
+
+#: includes/class-wc-payeasy-boleto.php:341
+#: includes/class-wc-payeasy-pix.php:345
+msgid "We have received your payment, Your order is in processing"
+msgstr "Recebemos seu pagamento, seu pedido está em processamento"
+
+#: includes/class-wc-payeasy-boleto.php:343
+#: includes/class-wc-payeasy-pix.php:347
+msgid "Since we haven't received your payment, Your order has been cancelled"
+msgstr "Como não recebemos seu pagamento, seu pedido foi cancelado"
+
+#: includes/class-wc-payeasy-boleto.php:345
+#: includes/class-wc-payeasy-pix.php:349
+msgid "Your order has been refunded"
+msgstr "Seu pedido foi reembolsado"
+
+#: includes/class-wc-payeasy-boleto.php:441
+#: includes/class-wc-payeasy-pix.php:446
+msgid "Order has been cancelled"
+msgstr "O pedido foi cancelado"
+
+#: includes/class-wc-payeasy-pix.php:26 includes/class-wc-payeasy-pix.php:86
+msgid "Pay Easy Pix"
+msgstr "Pay Easy Pix"
+
+#: includes/class-wc-payeasy-pix.php:88
+msgid ""
+"Add a new title for the Pay Easy Pix that customers will see when they are "
+"in the checkout page."
+msgstr ""
+"Adicione um novo título para o Pay Easy Pix que os clientes verão quando "
+"estiverem na página de checkout."
+
+#: includes/class-wc-payeasy-pix.php:91
+msgid "Pay Easy Pix Description"
+msgstr "Descrição do Pay Easy Pix"
+
+#: includes/class-wc-payeasy-pix.php:95
+msgid ""
+"Add a new description for the Pay Easy Pix that customers will see when they "
+"are in the checkout page."
+msgstr ""
+"Adicione uma nova descrição para o Pay Easy Pix que os clientes verão quando "
+"estiverem na página de checkout."
+
+#: includes/class-wc-payeasy-pix.php:100
+msgid ""
+"Abra o aplicativo do seu banco e escaneie o código QR para pagar ou copie o "
+"Pix, copie e cole abaixo e cole no seu aplicativo para finalizar a compra."
+msgstr ""
+"Abra o aplicativo do seu banco e escaneie o código QR para pagar ou copie o "
+"Pix, copie e cole abaixo e cole no seu aplicativo para finalizar a compra."
+
+#: includes/class-wc-payeasy-pix.php:227
+msgid "The PIX was not generated. Contact with the payment provider."
+msgstr "O PIX não foi gerado. Contato com o provedor de pagamento."
+
+#: includes/class-wc-payeasy-pix.php:316
+msgid "PIX Payment"
+msgstr "Pagamento PIX"
+
+#: includes/class-wc-payeasy-pix.php:326
+msgid "PIX Code"
+msgstr "Código PIX"
+
+#: includes/class-wc-payeasy-pix.php:327
+msgid "Copy pix code"
+msgstr "Copia e Cola"
+
+#: pix-pay-easy-for-woocommerce.php:103
+msgid "Sign up"
+msgstr "Inscrever-se"
+
+#: pix-pay-easy-for-woocommerce.php:106
+msgid "Documentation"
+msgstr "Documentação"
+
+#: pix-pay-easy-for-woocommerce.php:109
+msgid "Settings"
+msgstr "Configurações"
+
+#~ msgid "PayEasy Payment Gateway"
+#~ msgstr "Gateway de pagamento PayEasy"
+
+#~ msgid ""
+#~ "Please open your bank app and scan the QR code to pay or copy the Pix "
+#~ "copy and paste below and paste it into your app to finalize the purchase."
+#~ msgstr ""
+#~ "Abra o aplicativo do seu banco e escaneie o código QR para pagar ou copie "
+#~ "o Pix, copie e cole abaixo e cole no seu aplicativo para finalizar a "
+#~ "compra."
+
+#~ msgid "CPF is not correct."
+#~ msgstr "O CPF não está correto."
+
+#~ msgid "PIX payment"
+#~ msgstr "Pagamento PIX"
+
+#~ msgid ""
+#~ "for this operation. I also declare that I am aware that Pay Easy is only "
+#~ "a payment intermediary, with all responsibilities and obligations "
+#~ "relating to this deposit being the sole and exclusive responsibility of "
+#~ msgstr ""
+#~ "para esta operação. Declaro ainda que estou ciente de que a Pay Easy é "
+#~ "apenas uma intermediária de pagamentos, sendo todas as responsabilidades "
+#~ "e obrigações relativas a este depósito de responsabilidade única e "
+#~ "exclusiva da "
+
+#~ msgid "Enable Test mode"
+#~ msgstr "Ativar modo de teste"

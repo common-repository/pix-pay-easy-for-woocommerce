@@ -1,0 +1,151 @@
+#payeasy-send-payment {
+    border: 1px solid #f0f0f0;
+    border-radius: 5px
+}
+
+.download-button {
+    background-color: #6B1889; 
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+}
+.download-button:hover {
+    color: yellow; 
+  }
+#payeasy-send-payment>div {
+    border-top: 1px solid #f0f0f0;
+    padding: 20px;
+    position: relative
+}
+
+#payeasy-send-payment>div:first-child {
+    border-top: 0
+}
+
+#payeasy-send-payment>div span {
+    display: block
+}
+
+#payeasy-send-payment .payeasy-address>span:first-child,#payeasy-send-payment .payeasy-total>span:first-child {
+    opacity: 0.8
+}
+
+#payeasy-send-payment .payeasy-status {
+    display: flex;
+    justify-content: space-between
+}
+
+#payeasy-send-payment .payeasy-status span {
+    font-size: 20px
+}
+
+#payeasy-send-payment .payeasy-qr {
+    display: flex;
+    padding: 10px 20px 10px 8px
+}
+
+#payeasy-send-payment .payeasy-qr span {
+    background-size: 34px;
+    padding: 5px 0 5px 48px;
+    margin: auto 0 auto auto
+}
+
+@media (max-width: 480px) {
+    #payeasy-send-payment .payeasy-qr span {
+        background-position:top center;
+        padding: 50px 20px 0;
+        text-align: center
+    }
+}
+
+@media (max-width: 550px) {
+    #payeasy-send-payment .payeasy-qr {
+        flex-direction:column
+    }
+
+    #payeasy-send-payment .payeasy-qr div {
+
+        margin: 20px auto 0
+    }
+
+    #payeasy-send-payment .payeasy-qr span {
+        margin: 30px auto
+    }
+}
+
+#payeasy-send-payment .payeasy-copy {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    margin-top: -10px
+}
+
+/* @media (max-width: 460px) {
+    #payeasy-send-payment .payeasy-copy {
+        display:none
+    }
+} */
+
+#payeasy-send-payment .payeasy-copy a {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    display: block;
+    opacity: 0.6;
+    background: url("./copy-icon.svg") center center no-repeat;
+    background-size: 16px;
+    transition: .2s opacity
+}
+
+#payeasy-send-payment .payeasy-copy a:hover {
+    opacity: 1
+}
+
+#payeasy-send-payment .payeasy-copy a:hover+span {
+    opacity: 1
+}
+
+#payeasy-send-payment .payeasy-copy a:focus,#payeasy-send-payment .payeasy-copy a:active,#payeasy-send-payment .payeasy-copy a:hover {
+    text-decoration: none;
+    border: 0;
+    outline: 0
+}
+
+#payeasy-send-payment .payeasy-copy span {
+    display: block;
+    font-size: 12px;
+    width: 90px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 7px;
+    padding: 5px 0;
+    top: -40px;
+    margin-left: -35px;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    transition: .1s opacity
+}
+
+#payeasy-send-payment .payeasy-copy span:after {
+    content: '';
+    width: 0;
+    height: 0;
+    display: block;
+    position: absolute;
+    border-top: 6px solid #333;
+    border-left: 6px solid #0000;
+    border-right: 6px solid #0000;
+    bottom: -6px;
+    left: 50%;
+    margin-left: -6px
+}
+
+.message {
+    color: green !important;
+    text-align: center;
+}
